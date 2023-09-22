@@ -58,11 +58,13 @@ form button{
     background-color: orangered;
 }
 #search-result{
-    width:80%;
+    width:100%;
     margin: 100px auto 80px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #search-result img{
     width: 100%;
